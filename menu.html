@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#main{
+	width: auto;
+	height: auto;
+}
+.dropdown{	
+	width: 320px;
+	
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	text-align: center;	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+.dropdownMenu{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: yellow;
+	width: 320px;
+}
+
+	</style>
+
+</head>
+<body>
+	<div id="main">
+		<div class="dropdown">
+			<a href="#" class="dropdownBtn">MENU 1</a>
+			
+			<ul class="dropdownMenu">
+				<li><a href="#" >CON CUA MENU 1</a></li>
+				<li><a href="#" >CON CUA MENU 1</a></li>
+				<li><a href="#" >CON CUA MENU 1</a></li>
+				<li><a href="#" >CON CUA MENU 1</a></li>
+				<li><a href="#" >CON CUA MENU 1</a></li>
+				<li><a href="#" >CON CUA MENU 1</a></li>
+			</ul>
+			
+		</div>
+		<div class="dropdown">
+			<a href="#" class="dropdownBtn">MENU 2</a>
+		</div>
+		<div class="dropdown">
+			<a href="#" class="dropdownBtn">MENU 3</a>
+			<ul class="dropdownMenu">
+				<li><a href="#" >CON CUA MENU 3</a></li>
+				<li><a href="#" >CON CUA MENU 3</a></li>
+				<li><a href="#" >CON CUA MENU 3</a></li>
+				<li><a href="#" >CON CUA MENU 3</a></li>
+			</ul>
+		</div>
+		<div class="dropdown">
+			<a href="#" class="dropdownBtn">MENU 4</a>
+		</div>
+		<div class="dropdown">
+			<a href="#" class="dropdownBtn">MENU 5</a>
+		</div>
+</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
